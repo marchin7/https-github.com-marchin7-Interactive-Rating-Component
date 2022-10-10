@@ -129,13 +129,13 @@ p {
     to{opacity: 1;}
 }
 
-@media(max-width: 650px) {
+@media(max-width: 600px) {
  .card{
-  width: 350px;
+  width: 345px;
  }
  .content-wrapper,
  .content-wrapper2 {
-    width: 300px;
+    width: 295px;
  }
 }
 
