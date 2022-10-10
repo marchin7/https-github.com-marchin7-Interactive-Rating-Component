@@ -133,7 +133,8 @@ p {
  .card{
   width: 350px;
  }
- .content-wrapper {
+ .content-wrapper,
+ .content-wrapper2 {
     width: 300px;
  }
 }
