@@ -1,4 +1,5 @@
-body {
+ 
+ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,7 +37,7 @@ h1, h2 {
     margin-bottom: -10px;
 }
 p {
-    width:100%;
+    width: 100%;
     font-size: 15px;
     font-weight: 400;
     color: hsl(217, 12%, 63%);
@@ -83,7 +84,6 @@ p {
     border-radius: 30px;
     background-color: hsl(25, 97%, 53%);
     cursor: pointer;
-    font-family: Overpass,sans-serif;
     letter-spacing: 3px;
     transition: all ease-in-out 0.3s;
 }
@@ -96,6 +96,7 @@ p {
     height: 350px;
 }
 .content-wrapper2 {
+    width: 340px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,10 +133,16 @@ p {
 @media(max-width: 600px) {
  .card{
   width: 345px;
+  height: 395px;
+  border-radius: 15px;
  }
  .content-wrapper,
  .content-wrapper2 {
     width: 295px;
+ }
+ .btn {
+    height: 45px;
+    width: 45px;
  }
 }
 
