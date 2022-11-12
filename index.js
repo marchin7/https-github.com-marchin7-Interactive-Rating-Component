@@ -14,8 +14,8 @@ function rate() {
 function submit() {
     
     if (rateElement.innerText === '') {
-        card2.style.display ='none'
-        card1.style.display ='flex'
+        card2.style.display = 'none'
+        card1.style.display = 'flex'
         alert('Please select a number')
     }
 
