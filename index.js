@@ -1,27 +1,38 @@
-
+const form = document.getElementById('form');
 const card1 = document.getElementById('card1');
 const card2 = document.getElementById('card2');
 const rateElement = document.getElementById('rate');
 const buttons = document.querySelectorAll('.btn');
+const submitBtn = document.getElementById('submit-btn');
+const alertMsg = 'Please select a number';
 
-buttons.forEach(btn => {btn.addEventListener('click', rate)
+form.addEventListener('submit', (e)=>{
+    e.preventDefault();
+});
 
-function rate() {
-   rateElement.innerText = btn.value;
-}
-})
+buttons.forEach(item=>{item.addEventListener('click', ()=>{
+    buttons.forEach(btn=>{
+        if(item !== btn) {
+            btn.classList.remove('active')
+        }
+        else {btn.classList.add('active')}
+    })
+    rateElement.innerText = item.innerText;
+})});
 
-function submit() {
-    
+submitBtn.addEventListener('click', ()=>{
     if (rateElement.innerText === '') {
-        card2.style.display = 'none'
-        card1.style.display = 'flex'
-        alert('Please select a number')
+        card2.style.display = 'none';
+        card1.style.display = 'flex';
+        alert(alertMsg);
     }
-
     else {
-        card1.style.display = 'none'
-        card2.style.display = 'flex'
+        card1.style.display = 'none';
+        card2.style.display = 'flex';
     }
-}
+});
+
+
+
+
 
