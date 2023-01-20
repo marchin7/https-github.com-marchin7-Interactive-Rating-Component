@@ -4,7 +4,7 @@ const card2 = document.getElementById('card2');
 const rateElement = document.getElementById('rate');
 const buttons = document.querySelectorAll('.btn');
 const submitBtn = document.getElementById('submit-btn');
-const alertMsg = 'Please select a number';
+const alertMsg = 'Please select a rating';
 
 form.addEventListener('submit', (e)=>{
     e.preventDefault();

@@ -11,6 +11,7 @@
     width: 100%;
     height: 100vh;
 }
+
 .card {
     display: flex;
     justify-content: center;
@@ -45,6 +46,11 @@ p {
     margin-top: 1.375rem;
     margin-bottom: 1.375rem;
 }
+
+fieldset {
+    border: none;
+}
+
 .buttons {
     display: flex;
     justify-content: space-between;
