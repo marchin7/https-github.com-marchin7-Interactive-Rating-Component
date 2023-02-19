@@ -1,5 +1,4 @@
- 
- body {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +18,7 @@
     height: 26.25rem;
     width: 26.25rem;
     border-radius: 1.875rem;
-    background-color:  hsl(215, 24%, 14%);
+    background-color: hsl(215, 24%, 14%);
 }
 .star {
     display: flex;
@@ -30,7 +29,8 @@
     border-radius: 50%;
     background-color: hsl(213, 19%, 18%);
 }
-h1, h2 {
+h1,
+h2 {
     font-size: 1.75rem;
     font-weight: 700;
     color: white;
@@ -57,10 +57,9 @@ fieldset {
     align-items: center;
     width: 100%;
     margin-bottom: 1.875rem;
- 
 }
 
-.btn{
+.btn {
     width: 3.125rem;
     height: 3.125rem;
     font-size: 1rem;
@@ -97,7 +96,7 @@ fieldset {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
-.content-wrapper{
+.content-wrapper {
     width: 21.875rem;
     height: 21.875rem;
 }
@@ -125,32 +124,38 @@ fieldset {
 }
 
 @keyframes fade {
-    from{opacity: 0;}
-    to{opacity: 1;}
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 .card-1 {
     animation-name: fade2;
     animation-duration: 0.4s;
 }
 @keyframes fade2 {
-    from{opacity: 0.5;}
-    to{opacity: 1;}
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
-@media(max-width: 37.5rem) {
- .card{
-  width: 21.5625rem;
-  height: 24.6875rem;
-  border-radius: 0.9375rem;
- }
- .content-wrapper,
- .content-wrapper2 {
-    width: 18.4375rem;
- }
- .btn {
-    height: 2.8125rem;
-    width: 2.8125rem;
- }
+@media (max-width: 37.5rem) {
+    .card {
+        width: 21.5625rem;
+        height: 24.6875rem;
+        border-radius: 0.9375rem;
+    }
+    .content-wrapper,
+    .content-wrapper2 {
+        width: 18.4375rem;
+    }
+    .btn {
+        height: 2.8125rem;
+        width: 2.8125rem;
+    }
 }
-
-
