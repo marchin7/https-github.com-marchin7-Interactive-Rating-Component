@@ -269,7 +269,7 @@ p {
     }
 
     .submit-btn {
-        border-radius: 3.125rem;
+        border-radius: 3.125rem !important;
     }
 }
 
