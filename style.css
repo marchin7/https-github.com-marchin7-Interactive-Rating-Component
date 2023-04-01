@@ -267,10 +267,6 @@ p {
         font-size: 0.875rem;
         line-height: 1.375rem;
     }
-
-    .submit-btn {
-        border-radius: 3.125rem !important;
-    }
 }
 
 @media only screen and (max-width: 18.75rem) {
