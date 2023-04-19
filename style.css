@@ -5,7 +5,7 @@
     --medium-grey: hsl(216, 12%, 54%);
     --dark-blue: hsl(213, 20%, 18%);
     --very-dark-blue: hsl(216, 12%, 8%);
-    --medium-blue: hsl(215, 24%, 14%);
+    --medium-blue: rgb(36, 43, 53);
 }
 
 *,
@@ -101,6 +101,9 @@ body {
     max-width: 25.75rem;
     border-radius: 1.875rem;
     background-color: var(--medium-blue);
+    box-shadow: inset 0px -137px 140px 83px rgba(27, 34, 44, 1);
+    -moz-box-shadow: inset 0px -137px 140px 83px rgba(27, 34, 44, 1);
+    box-shadow: inset 0px -137px 140px 83px rgba(27, 34, 44, 1);
 }
 
 .card {
